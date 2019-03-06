@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  font-family: serif;
+  min-height: 100vh;
+  font-size: 62.5%;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  display: grid;
+}
