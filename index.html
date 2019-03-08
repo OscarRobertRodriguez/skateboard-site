@@ -11,22 +11,105 @@
 <body>
 
 <header class="header">
-    <div class="header__logo"><img src="assets/logoSkate.jpg" alt=""></div>
+    <div class="header__logo"><img src="assets/logoSkate.svg" alt="logo"></div>
  <nav class="header__nav">
-     <a href="#">features</a>
-     <a href="#">videos</a>
-     <a href="#">photos</a>
-     <a href="#">magazine</a>
-     <a href="#">store</a>
-     <a href="#">how-tos</a>
+
+
+     <input id='radio-1' type='radio' name="nav">
+     <a href="#">
+        <label for="radio-1">
+             features
+        </label>
+     </a>
+
+     <input id="radio-2" type='radio' name="nav">
+
+     <a href="#">
+     <label for="radio-2">
+            videos
+     </label>
+     </a>
+
+
+     <input id="radio-3" type='radio' name="nav">
+     <a href="#">
+     <label for="radio-3">
+         photos
+     </label>
+     </a>
+
+
+
+     <input id="radio-4" type='radio' name="nav">
+     <a href="#">
+        <label for="radio-4">
+            magazine
+        </label>
+     </a>
+
+
+     <input id="radio-5" type='radio' name="nav">
+     <a href="#">
+        <label for="radio-5">
+            store
+        </label>
+     </a>
+
+     <input id="radio-6" type='radio' name="nav">
+     <a href="#">
+        <label for="radio-6">
+             how-tos
+        </label>
+     </a>
+
  </nav>
-    <a href="#">my cart</a>
+    <a class="header__cart" href="#">
+        <p>my cart</p>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <title>shopping-cart</title>
+            <path d="M13 17c0 1.104 0.894 2 2 2 1.104 0 2-0.896 2-2 0-1.106-0.896-2-2-2-1.106 0-2 0.894-2 2zM3 17c0 1.104 0.895 2 2 2 1.103 0 2-0.896 2-2 0-1.106-0.897-2-2-2-1.105 0-2 0.894-2 2zM6.547 12.172l11.068-3.162c0.211-0.061 0.385-0.289 0.385-0.51v-5.5h-14v-1.6c0-0.22-0.181-0.4-0.399-0.4h-3.202c-0.219 0-0.399 0.18-0.399 0.4v1.6h2l1.91 8.957 0.090 0.943v1.649c0 0.219 0.18 0.4 0.4 0.4h13.2c0.22 0 0.4-0.182 0.4-0.4v-1.549h-11.248c-1.15 0-1.174-0.551-0.205-0.828z"></path>
+        </svg>
+    </a>
 </header>
 
 
 
 <section class="section section--carousel">
+    <img class="carousel__img" src="assets/skate2.jpg" alt="skate img">
+    <div class="carousel__info">
+        <h3>features</h3>
+        <h1>Readers choice awards</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            A accusantium blanditiis corporis dolor doloremque eius enim in magnam magni mollitia.
+        </p>
+        <a class="read-more" href="#">
+            read more
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <title>arrow-right2</title>
+                <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
+            </svg>
 
+        </a>
+    </div>
+
+    <div class="carousel__controls">
+        <label for="">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <title>arrow-left2</title>
+                <path d="M12.586 27.414l-10-10c-0.781-0.781-0.781-2.047 0-2.828l10-10c0.781-0.781 2.047-0.781 2.828 0s0.781 2.047 0 2.828l-6.586 6.586h19.172c1.105 0 2 0.895 2 2s-0.895 2-2 2h-19.172l6.586 6.586c0.39 0.39 0.586 0.902 0.586 1.414s-0.195 1.024-0.586 1.414c-0.781 0.781-2.047 0.781-2.828 0z"></path>
+            </svg>
+            <p>prev</p>
+        </label>
+        <label for="">
+            <p>next</p>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <title>arrow-right2</title>
+                <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
+            </svg>
+
+        </label>
+    </div>
 </section>
 
 <section class="section section--stories">

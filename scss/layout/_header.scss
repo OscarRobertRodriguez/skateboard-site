@@ -1,0 +1,112 @@
+
+.header {
+   display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  overflow: hidden;
+  &__logo {
+   grid-column: 1/ 2;
+   border-right: 1px solid color(2);
+    display: flex;
+    padding: 5px;
+      & img {
+        width: 75px;
+        align-self: center;
+      }
+  }
+
+  &__cart {
+    grid-column: 3 / -1;
+    background: color(2);
+    width: 12rem;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: color(4);
+    font-family: $ff-sans;
+    transition: all .2s ease;
+
+    & p {
+      padding-right: 1rem;
+    }
+
+    & svg {
+      fill: color(3);
+      border: red;
+    }
+
+    &:hover {
+      background: darken(color(2), 10 );
+    }
+
+    &:hover svg {
+      fill: color(1);
+    }
+  }
+}
+
+
+
+.header__nav {
+ grid-column: 2 /3;
+ display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: center;
+  grid-column-gap: 2.5rem;
+
+  & input[type='radio'] {
+    display: none;
+  }
+
+  & label {
+    cursor: pointer;
+    transition: all .2s ease;
+  }
+
+  & label:hover {
+    transform: scale(1.1);
+  }
+
+  & a {
+    text-decoration: none;
+    color: color(5);
+    font-size: .9rem;
+    text-transform: capitalize;
+    font-family: $ff-sans;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+
+    &:after {
+      content: '';
+      display: none;
+      background-image: url("~assets/urban-skateboard-svgrepo-com.svg");
+      width: 18px;
+      height: 18px;
+      background-size: 18px 18px;
+      padding: 0;
+      margin: 0;
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: -20px;
+
+    }
+
+
+  }
+
+  & input:checked + a:after {
+    display: block;
+  }
+
+  & input:checked + a label {
+     transform: scale(1.1);
+  }
+
+}
