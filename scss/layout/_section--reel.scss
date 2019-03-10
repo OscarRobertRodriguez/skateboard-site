@@ -1,0 +1,20 @@
+
+.section--reel {
+  background: color(5);
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 25px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.reel__background {
+  background: color(6);
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.reel__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

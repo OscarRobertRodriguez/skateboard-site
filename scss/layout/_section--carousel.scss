@@ -5,11 +5,11 @@
   height: 80vh;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 80px;
+
 }
 
 
 .carousel {
-
   &__img {
     grid-column: 1/ 2;
     grid-row: 1 / 3;

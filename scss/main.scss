@@ -18,11 +18,13 @@
 @import "layout/header";
 @import "layout/general";
 @import "layout/section--carousel";
+@import "layout/section--stories";
+@import "layout/section--reel";
 @import "layout/footer";
 
 
 
 //components
 
-
+@import "components/cards";
 
