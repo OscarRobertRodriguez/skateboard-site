@@ -45,27 +45,10 @@
   }
 
 
-  &__btn {
+  & a {
     grid-column: 1/-1;
     grid-row: 2/3;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: color(5);
-    font-family: $ff-serif;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    text-align: left;
-    font-weight: $fw-bold;
-
-    & svg {
-      width: 20px;
-      height: 20px;
-      margin-left: 1rem;
-    }
   }
-
 
   &--big {
     width: 100%;
@@ -81,16 +64,19 @@
       grid-row: 1/ 2;
       align-self: start;
       width: 100%;
+      height: 100%;
 
 
 
-    }
-
-    & h3 {
-     grid-row: 2/3;
     }
 
     & h2 {
+     grid-row: 2/3;
+      grid-column: 2/3;
+      color: color(1);
+    }
+
+    & h1 {
       grid-row: 2/3;
     }
 
@@ -113,7 +99,7 @@
       top: 0;
       grid-row-gap: 15px;
 
-      & h2 {
+      & h1 {
         grid-row:3/4;
         grid-column: 2/3;
         font-family: $ff-serif;
@@ -121,37 +107,22 @@
         align-self: start;
       }
 
-      & h3 {
-        grid-row: 2/3;
-        grid-column: 2/3;
-        color: lighten(color(3), 30);
-        font-size: 1.2rem;
-        font-weight: $fw-light;
-        text-transform: uppercase;
-        letter-spacing: 8px;
+      //& h2 {
+      //  grid-row: 2/3;
+      //  grid-column: 2/3;
+      //  color: lighten(color(3), 30);
+      //  font-size: 1.2rem;
+      //  font-weight: $fw-light;
+      //  letter-spacing: 8px;
+      //
+      //}
 
-      }
 
-      & a {
-        grid-column: 3/-1;
-        grid-row: 3/4;
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        width: 100%;
-        padding-right: 2rem;
-        font-size: 1.2rem;
-        font-family: $ff-sans;
-        text-transform: capitalize;
-        text-decoration: none;
-        color: color(1);
-        letter-spacing: 3px;
+    }
 
-        & svg {
-          fill: color(2);
-          margin-left: 1rem;
-        }
-      }
+    .btn--arrow {
+      grid-column: 3/-1;
+      grid-row: 3/4;
     }
 
     &__video-svg {
@@ -165,6 +136,13 @@
     }
 
 
+  }
+
+  &--big-simple {
+      & .btn--arrow {
+        grid-column: 2/3;
+        justify-content: start;
+      }
   }
 
 

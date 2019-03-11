@@ -42,4 +42,29 @@ h3 {
 h1 {
  text-transform: capitalize;
   letter-spacing: 1px;
+  font-size: 4rem;
+  color: color(2);
+  font-family: $ff-serif;
+  text-align: left;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.2rem;
+  letter-spacing: 8px;
+  color: color(7);
+  font-weight: $fw-light;
+  word-spacing: .5rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: $ff-sans;
+  align-self: center;
+  justify-self: start;
+  font-size: 2.5rem;
+  font-weight: $fw-bold;
+  color: color(4);
 }

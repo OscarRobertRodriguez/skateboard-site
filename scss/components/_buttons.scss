@@ -1,0 +1,46 @@
+
+.btn {
+  color: color(7);
+  text-decoration: none;
+  font-size: 1.3rem;
+  height: 60px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  border:1px solid  currentColor;
+  font-family: $ff-sans;
+  letter-spacing: 1px;
+}
+
+
+
+
+.btn--arrow {
+  width: 100%;
+  padding-right: 2rem;
+  font-size: 1.1rem;
+  font-family: $ff-sans;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: color(1);
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+
+  & svg {
+    fill: color(2);
+    margin-left: 1rem;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.btn--arrow-black {
+  color: color(4);
+  font-size: 1rem;
+  & svg {
+    fill: color(4);
+  }
+}

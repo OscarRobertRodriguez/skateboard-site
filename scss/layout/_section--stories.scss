@@ -13,18 +13,12 @@
   justify-items: center;
   max-width: 1200px;
 
-  & h2 {
-    font-size: 2.5rem;
+  & h3 {
     grid-column: 1/2;
     grid-row: 1/2;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    font-family: $ff-sans;
-    align-self: center;
   }
 
   & input {
-
     height: 70px;
     width: 150px;
     font-size: 1.3rem;
@@ -73,9 +67,7 @@
 
   }
 
-  &__info {
 
-  }
 
 }
 
