@@ -176,7 +176,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/Users/oscar/Desktop/css grid practice/skateboard-site/assets/urban-skateboard-svgrepo-com.svg":[["urban-skateboard-svgrepo-com.009cf388.svg","assets/urban-skateboard-svgrepo-com.svg"],"assets/urban-skateboard-svgrepo-com.svg"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"/Users/oscar/Desktop/css grid practice/skateboard-site/assets/urban-skateboard-svgrepo-com.svg":[["urban-skateboard-svgrepo-com.009cf388.svg","assets/urban-skateboard-svgrepo-com.svg"],"assets/urban-skateboard-svgrepo-com.svg"],"/Users/oscar/Desktop/css grid practice/skateboard-site/assets/skate7.jpg":[["skate7.f6ff3fc8.jpg","assets/skate7.jpg"],"assets/skate7.jpg"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -203,7 +203,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51772" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52778" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

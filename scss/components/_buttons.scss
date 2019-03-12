@@ -12,6 +12,11 @@
   border:1px solid  currentColor;
   font-family: $ff-sans;
   letter-spacing: 1px;
+
+  &--black {
+   background: color(4);
+    color: color(3);
+  }
 }
 
 
