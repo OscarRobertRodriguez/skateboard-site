@@ -69,12 +69,12 @@ h2 {
 }
 @media screen and (max-width: 1100px) {
   h2 {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 600px) {
   h2 {
-    font-size: 2.3vw;
+    font-size: 3.5vw;
   }
 }
 
@@ -605,24 +605,50 @@ body {
   grid-column: 1/-1;
   grid-row: 2/3;
   z-index: 10;
-  padding: 10rem 0;
+  padding: 10rem 1rem;
   width: 100%;
   grid-column-gap: 4rem;
   display: grid;
   grid-template-columns: 1fr 0.5fr;
   grid-template-rows: min-content min-content auto;
 }
+@media screen and (max-width: 1100px) {
+  .reel__container {
+    padding: 5rem 1rem;
+  }
+}
 .reel__container .card--big {
   grid-column: 1/2;
   grid-row: 3/4;
+}
+@media screen and (max-width: 1100px) {
+  .reel__container .card--big {
+    grid-column: 1/-1;
+    max-width: 800px;
+    justify-self: center;
+  }
 }
 .reel__container > h1 {
   grid-column: 1/2;
   grid-row: 2/3;
 }
+@media screen and (max-width: 1100px) {
+  .reel__container > h1 {
+    grid-column: 1/-1;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+}
 .reel__container > h2 {
   grid-column: 1/2;
   grid-row: 1/2;
+}
+@media screen and (max-width: 1100px) {
+  .reel__container > h2 {
+    grid-column: 1/-1;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
 }
 
 .reel__side-menu {
@@ -634,15 +660,27 @@ body {
   grid-template-rows: 100px 1fr 100px;
   align-content: center;
 }
+@media screen and (max-width: 1100px) {
+  .reel__side-menu {
+    grid-column: 1/-1;
+    grid-row: auto;
+    text-align: center;
+    align-items: center;
+  }
+}
 .reel__side-menu ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding: 0;
   margin: 0;
+  min-height: 280px;
 }
 .reel__side-menu h2 {
   align-self: end;
+}
+.reel__side-menu a {
+  justify-self: center;
 }
 
 .section--subscription {

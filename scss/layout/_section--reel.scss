@@ -21,7 +21,7 @@
   grid-column: 1/-1;
   grid-row: 2/3;
   z-index: 10;
-  padding: 10rem 0;
+  padding: 10rem 1rem;
   width: 100%;
   grid-column-gap: 4rem;
 
@@ -29,19 +29,40 @@
   grid-template-columns: 1fr .5fr;
   grid-template-rows: min-content min-content auto;
 
+  @include mq(medium) {
+    padding: 5rem 1rem;
+  }
+
   & .card--big {
     grid-column: 1/2;
     grid-row: 3/4;
+
+    @include mq(medium) {
+      grid-column: 1/-1;
+      max-width: 800px;
+      justify-self: center;
+    }
   }
 
   & > h1 {
     grid-column: 1/2;
     grid-row: 2/3;
+
+    @include mq(medium) {
+      grid-column: 1/-1;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
   }
 
   & > h2 {
      grid-column: 1/2;
      grid-row: 1/2;
+    @include mq(medium) {
+      grid-column: 1/-1;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
   }
 
 
@@ -57,6 +78,12 @@
   grid-row-gap: 2rem;
   grid-template-rows: 100px 1fr 100px;
   align-content: center;
+  @include mq(medium) {
+    grid-column: 1/-1;
+    grid-row: auto;
+    text-align: center;
+    align-items: center;
+  }
 
   & ul {
     display: flex;
@@ -64,10 +91,17 @@
     justify-content: space-around;
     padding: 0;
     margin: 0;
+    min-height: 280px;
 
   }
 
   & h2 {
     align-self: end;
+
+
+  }
+
+  & a {
+    justify-self: center;
   }
 }
