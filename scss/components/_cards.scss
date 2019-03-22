@@ -1,9 +1,12 @@
 
 
 .card {
-  width: 350px;
+  display: grid;
+  width: 100%;
   justify-content: center;
   justify-items: center;
+  grid-template-rows: auto auto;
+  height: 100%;
 
   & img {
     width: 100%;
@@ -55,6 +58,7 @@
     display: grid;
     grid-template-rows: auto;
     position: relative;
+    height: 450px;
 
 
 

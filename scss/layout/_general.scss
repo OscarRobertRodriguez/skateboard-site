@@ -18,4 +18,13 @@ img {
 
 body {
   display: grid;
+  grid-template-rows: min-content min-content;
+
+  @include mq(medium) {
+    grid-template-rows: min-content min-content ;
+  }
+
+  @include mq(small) {
+    grid-template-rows: min-content min-content;
+  }
 }

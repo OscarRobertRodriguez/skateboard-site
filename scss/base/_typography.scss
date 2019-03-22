@@ -46,17 +46,28 @@ h1 {
   color: color(2);
   font-family: $ff-serif;
   text-align: left;
+  line-height: 1.2;
 
 }
 
 h2 {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.2vw;
   letter-spacing: 8px;
   color: color(7);
   font-weight: $fw-light;
   word-spacing: .5rem;
   text-transform: uppercase;
+
+  @include mq(medium) {
+   font-size: 1.5vw;
+  }
+
+  @include mq(medium) {
+    font-size: 2.3vw;
+  }
+
+
 }
 
 h3 {
@@ -68,4 +79,12 @@ h3 {
   font-size: 2.5rem;
   font-weight: $fw-bold;
   color: color(4);
+
+  @include mq(medium) {
+    font-size: 2rem;
+  }
+
+  @include mq(small) {
+    justify-self: center;
+  }
 }
