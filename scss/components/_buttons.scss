@@ -41,7 +41,7 @@
   }
 
   @include mq(small) {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
 
@@ -58,8 +58,8 @@
     }
 
     @include mq(small) {
-      width: 4vw;
-      height: 4vw;
+      width: 5vw;
+      height: 5vw;
     }
   }
 
