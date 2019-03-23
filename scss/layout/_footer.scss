@@ -7,6 +7,12 @@
   grid-template-columns: 20px 1fr 20px;
   grid-template-rows: 20px 1fr 20px;
 
+  @include mq(medium) {
+    grid-template-columns: 5px 1fr 5px;
+    grid-template-rows: 5px 1fr 5px;
+    padding: 2rem 5px;
+  }
+
 
   &__container {
     border: 1px solid color(8);
@@ -14,8 +20,13 @@
     grid-row: 2/3;
     height: 100%;
     display: grid;
-    grid-template-columns: .15fr 200px 1fr .5fr ;
+    grid-template-columns: .15fr .5fr 1fr .5fr ;
     align-items: center;
+
+    @include mq(medium) {
+      grid-template-columns: 1fr 1fr;
+
+    }
   }
 
   &__logo {
@@ -26,6 +37,9 @@
     justify-items: center;
     border-right: 1px solid color(8);
     height: 100%;
+    @include mq(medium) {
+      grid-column: 1/2;
+    }
     & img {
       width: 50px;
     }
@@ -38,6 +52,9 @@
     justify-content: center;
     border-right: 1px solid color(8);
     height: 100%;
+    @include mq(medium) {
+      grid-column: 2/3;
+    }
     & svg {
       width: 100px;
       height: 100%;
@@ -53,6 +70,13 @@
     height: 100%;
     align-items: center;
 
+    @include mq(medium) {
+      grid-column: 1/-1;
+      padding: 1rem 15px;
+      flex-wrap: wrap;
+      border-top: 1px solid color(8);
+    }
+
     & a {
       color: color(8);
       text-decoration: none;
@@ -60,6 +84,7 @@
       text-transform: capitalize;
       font-weight: $fw-bold;
       letter-spacing: 1px;
+      padding: 3px 5px;
     }
   }
 
@@ -68,6 +93,12 @@
     justify-content: space-between;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+    @include mq(medium) {
+      grid-column: 1/-1;
+      padding: 1rem 0;
+      border-top: 1px solid color(8);
+    }
 
     & a {
       color: color(8);
