@@ -19,6 +19,7 @@ img {
 body {
   display: grid;
   grid-template-rows: min-content min-content;
+  overflow-x: hidden;
 
   @include mq(medium) {
     grid-template-rows: min-content min-content ;
