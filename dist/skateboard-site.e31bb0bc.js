@@ -104,9 +104,43 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"index.js":[function(require,module,exports) {
+})({"scripts/carousel.js":[function(require,module,exports) {
+"use strict";
 
-},{}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+var slideIndex = 0;
+var carouselBtns = document.querySelectorAll('.carousel__btn');
+carouselBtns.forEach(function (btn) {
+  return btn.addEventListener('click', changeImg);
+});
+
+function changeImg(e) {
+  var btn = e.currentTarget;
+  var imgs = document.querySelectorAll('.carousel__img');
+  var articles = document.querySelectorAll('.carousel__info');
+  console.log(articles);
+
+  if (slideIndex === 0) {
+    btn.dataset.name === 'prev' ? slideIndex = 2 : slideIndex = 1;
+  } else if (slideIndex === 2) {
+    btn.dataset.name === 'prev' ? slideIndex = 1 : slideIndex = 0;
+  } else if (slideIndex === 1) {
+    btn.dataset.name === 'prev' ? slideIndex = 0 : slideIndex = 2;
+  }
+
+  imgs.forEach(function (item) {
+    item.classList.add('img__hidden');
+  });
+  articles.forEach(function (item) {
+    item.style.zIndex = '1';
+  });
+  imgs[slideIndex].classList.remove('img__hidden');
+  articles[slideIndex].style.zIndex = '10';
+}
+},{}],"index.js":[function(require,module,exports) {
+"use strict";
+
+require("./scripts/carousel.js");
+},{"./scripts/carousel.js":"scripts/carousel.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -276,3 +310,4 @@ function hmrAccept(bundle, id) {
   });
 }
 },{}]},{},["../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+//# sourceMappingURL=/skateboard-site.e31bb0bc.map

@@ -19,5 +19,8 @@
   "homepage": "https://github.com/OscarRobertRodriguez/skateboard-site#readme",
   "devDependencies": {
     "sass": "^1.17.2"
+  },
+  "dependencies": {
+    "scripts": "^0.1.0"
   }
 }

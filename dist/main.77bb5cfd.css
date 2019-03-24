@@ -142,9 +142,9 @@ h3 {
   .header__hamburger {
     grid-column: 1/2;
     align-self: center;
-    padding-left: 1rem;
-    width: 50px;
-    height: 50px;
+    margin-left: 1rem;
+    width: 45px;
+    height: 45px;
     cursor: pointer;
   }
 }
@@ -327,6 +327,7 @@ body {
   height: 100%;
   object-fit: cover;
   align-self: start;
+  transition: all 0.2s ease;
 }
 @media screen and (max-width: 1100px) {
   .carousel__img {
@@ -342,6 +343,7 @@ body {
 }
 .carousel__info {
   grid-column: 2/-1;
+  grid-row: 1/2;
   display: grid;
   grid-template-columns: 30px 1fr 20px;
   grid-template-rows: 0.5fr min-content min-content 1fr 1fr;
@@ -487,6 +489,11 @@ body {
 }
 .carousel__controls label:last-of-type {
   border-bottom: 3px solid #F6F6F6;
+}
+
+.img__hidden {
+  transform: translateX(-100%);
+  opacity: 0;
 }
 
 .section--stories {
@@ -1271,6 +1278,7 @@ body {
   text-decoration: none;
   font-size: 1.3rem;
   min-height: 60px;
+  max-height: 70px;
   width: 150px;
   display: flex;
   align-items: center;
