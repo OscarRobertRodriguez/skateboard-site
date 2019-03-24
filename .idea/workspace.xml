@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb9e327d-4776-495b-9a94-6b3801811a31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.cache/12/e3896be153525410a1fd1d032ee77c.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/12/e3896be153525410a1fd1d032ee77c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/15/c0e817ee4dfdfd04e575845833be0e.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/15/c0e817ee4dfdfd04e575845833be0e.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/25/fe86a6679dcbc489c3557b4d9b4504.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/25/fe86a6679dcbc489c3557b4d9b4504.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/29/ae829a005ad0656efd9cc4bed938f1.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/29/ae829a005ad0656efd9cc4bed938f1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/34/3c02045c406a4055a3dc97449056bc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/34/3c02045c406a4055a3dc97449056bc.json" afterDir="false" />
@@ -13,23 +14,20 @@
       <change beforePath="$PROJECT_DIR$/.cache/53/2cd6087d1e77b29240750b54ef84ff.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/53/2cd6087d1e77b29240750b54ef84ff.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/57/bc8640f2723f2cbab04b8dc9882845.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/57/bc8640f2723f2cbab04b8dc9882845.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/78/91d76bd6c953c861b3d1af78a1f115.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/78/91d76bd6c953c861b3d1af78a1f115.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/82/4badfe2144413bdea1bf75d1529752.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/82/4badfe2144413bdea1bf75d1529752.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/99/b0ef688e195f7e8f945b947aa9342a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/99/b0ef688e195f7e8f945b947aa9342a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/a0/c58e392a4568999e8e26272cfc1b41.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/a0/c58e392a4568999e8e26272cfc1b41.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/d2/6a8339dd588a33bf7e41e696208b55.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/d2/6a8339dd588a33bf7e41e696208b55.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/d8/01a4a9324b9606740d2845e4b4bd61.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/d8/01a4a9324b9606740d2845e4b4bd61.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/fc/6ae39a08ff6efde41e23497a5e93fd.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/fc/6ae39a08ff6efde41e23497a5e93fd.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.77bb5cfd.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.77bb5cfd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/skateboard-site.e31bb0bc.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/skateboard-site.e31bb0bc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/skateboard-site.e31bb0bc.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/skateboard-site.e31bb0bc.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logoSkate.1e9d63dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.77bb5cfd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.77bb5cfd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.77bb5cfd.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/skateboard-site.e31bb0bc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/skateboard-site.e31bb0bc.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/_section--carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_section--carousel.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,11 +42,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.5742942">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/layout/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="218">
-                  <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+                <state relative-caret-position="158">
+                  <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="370">
+                  <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -56,8 +63,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="21">
-                  <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+                <state relative-caret-position="267">
+                  <caret line="112" column="89" selection-start-line="112" selection-start-column="89" selection-end-line="112" selection-end-column="108" />
                   <folding>
                     <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -69,6 +76,24 @@
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#svg#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.posthtmlrc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="1" selection-start-column="1" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.htmlnanorc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
@@ -117,7 +142,7 @@
             <entry file="file://$PROJECT_DIR$/scss/components/_buttons.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="74">
-                  <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+                  <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -126,7 +151,7 @@
             <entry file="file://$PROJECT_DIR$/scss/layout/_section--reel.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="803">
-                  <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+                  <caret line="105" column="3" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -162,7 +187,7 @@
             <entry file="file://$PROJECT_DIR$/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="45">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                  <caret line="3" selection-start-line="3" selection-end-line="3" />
                 </state>
               </provider>
             </entry>
@@ -235,9 +260,12 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/layout/_section--carousel.scss" />
         <option value="$PROJECT_DIR$/scripts/carousel.js" />
-        <option value="$PROJECT_DIR$/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/scss/layout/_section--reel.scss" />
         <option value="$PROJECT_DIR$/scss/components/_buttons.scss" />
+        <option value="$PROJECT_DIR$/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.htmlnanorc" />
+        <option value="$PROJECT_DIR$/.posthtmlrc" />
       </list>
     </option>
   </component>
@@ -278,18 +306,6 @@
               <item name="skateboard-site" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skateboard-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard-site" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skateboard-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skateboard-site" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,12 +353,12 @@
       <workItem from="1551893200815" duration="42320000" />
       <workItem from="1552249742284" duration="55642000" />
       <workItem from="1553134637918" duration="719000" />
-      <workItem from="1553136842934" duration="32137000" />
+      <workItem from="1553136842934" duration="35047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130818000" />
+    <option name="totallyTimeSpent" value="133728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -372,20 +388,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scss/abstracts/_functions.scss _general.scss" />
-    <entry file="file://$PROJECT_DIR$/assets/logoSkate.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/shopping-cart.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/arrow-left2.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -397,9 +399,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/video-camera.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/abstracts/_functions.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -569,7 +568,7 @@
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -580,10 +579,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_section--reel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="105" column="3" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+        <state relative-caret-position="267">
+          <caret line="112" column="89" selection-start-line="112" selection-start-column="89" selection-end-line="112" selection-end-column="108" />
           <folding>
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -598,31 +632,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layout/_header.scss">
+    <entry file="file://$PROJECT_DIR$/dist/main.0445e421.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htmlnanorc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/carousel.js">
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        <state>
+          <caret column="493" selection-start-column="493" selection-end-column="493" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layout/_section--reel.scss">
+    <entry file="file://$PROJECT_DIR$/.posthtmlrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>

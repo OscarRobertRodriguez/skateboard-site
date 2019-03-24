@@ -4,7 +4,9 @@
   "description": "design created by Nathan Riley",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url /skateboard-site",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
     "sass": "^1.17.2"
   },
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "scripts": "^0.1.0"
   }
 }

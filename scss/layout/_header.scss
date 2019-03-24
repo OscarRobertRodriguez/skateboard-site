@@ -25,7 +25,6 @@ align-items: center;
 
 
     @include mq(medium) {
-
       grid-column: 1/2;
       align-self: center;
       margin-left: 1rem;
