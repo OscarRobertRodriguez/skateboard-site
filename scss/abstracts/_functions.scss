@@ -1,6 +1,0 @@
-
-
-@function color($shade) {
-  $value: map-get($colors, $shade);
-  @return $value;
-}

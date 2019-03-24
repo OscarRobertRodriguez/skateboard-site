@@ -1,3 +1,0 @@
-
-
-import  './scripts/carousel.js';
