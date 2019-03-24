@@ -4,17 +4,28 @@
 align-items: center;
   justify-content: space-between;
   overflow: hidden;
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  background: #fff;
 
   @include mq(medium) {
     grid-template-columns: 1fr 30vw 1fr;
   }
 
-
-  &__hamburger {
+  & .mobile-label {
     display: none;
 
-    @include mq(medium) {
+    @include  mq(medium) {
       display: block;
+    }
+  }
+
+  &__hamburger {
+
+
+    @include mq(medium) {
+
       grid-column: 1/2;
       align-self: center;
       padding-left: 1rem;

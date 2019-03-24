@@ -120,18 +120,26 @@ h3 {
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  background: #fff;
 }
 @media screen and (max-width: 1100px) {
   .header {
     grid-template-columns: 1fr 30vw 1fr;
   }
 }
-.header__hamburger {
+.header .mobile-label {
   display: none;
 }
 @media screen and (max-width: 1100px) {
-  .header__hamburger {
+  .header .mobile-label {
     display: block;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .header__hamburger {
     grid-column: 1/2;
     align-self: center;
     padding-left: 1rem;
@@ -297,6 +305,7 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 40vw 80px;
+  padding-top: 5rem;
 }
 @media screen and (max-width: 1100px) {
   .section--carousel {
@@ -1057,6 +1066,50 @@ body {
   width: 20px;
 }
 
+.mobile-nav {
+  position: fixed;
+  z-index: 99999;
+  top: 5rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(6, min-content);
+  align-items: center;
+  transform: translateX(-100vw);
+  transition: transform 0.2s ease;
+  align-content: start;
+  padding-top: 3rem;
+}
+@media screen and (max-width: 600px) {
+  .mobile-nav {
+    top: 3.5rem;
+  }
+}
+.mobile-nav a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #2C2C2C;
+  padding: 1rem 2rem;
+  transition: all 0.45ms ease;
+}
+.mobile-nav a:hover {
+  background: #F6F6F6;
+}
+
+#navMobile:checked ~ .mobile-nav {
+  transform: translateX(0px);
+}
+
+#navMobile {
+  display: none;
+}
+
 .card {
   display: grid;
   width: 100%;
@@ -1254,7 +1307,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   .btn--arrow {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 .btn--arrow svg {
